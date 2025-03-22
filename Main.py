@@ -19,14 +19,14 @@ def Main():
             print("Founded in Unity3D Module(IL2Cpp)!!! Injecting...")
             converted_utf8 = bytes(dll_inject, "utf-8")
             proc.inject_dll(bkk.process_handle, converted_utf8)
-            sleep(3400)
+            sleep(5)
             print("Injecting Done!!! Created by RimisiusDev!!!")
             os._exit(344)
         elif x.name == "mono-2.0-bdwgc.dll":
             print("Founded Module in Unity3D(mono-library!!!)... \nP.S: This Library Is FREE-TO-USE(WITH OPEN SOURCE CODE!!!)... \nYou Can Try Create Cheeto with C++ Library(MonoLibrary from UnityTechnologies)")
             converted_utf8 = bytes(dll_inject, "utf-8")
             proc.inject_dll_from_path(bkk.process_handle, converted_utf8)
-            sleep(3400)
+            sleep(5)
             print("Injecting Done!!! Created by RimisiusDev!!!")
             os._exit(344)
         else:
